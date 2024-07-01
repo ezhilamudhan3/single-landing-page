@@ -1,0 +1,79 @@
+body{
+    margin-top: 0px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter: grayscale(20px);
+    background-image: url("bg1.jpg");
+}
+.navp{
+    position: absolute;
+    background-color: black;
+    height: 4em;
+    width: 100%;
+    opacity: 60%;
+}
+.nav{
+    position: relative;
+    margin-left: 300px;
+    text-decoration: none;
+    display: flex;
+}
+
+a{
+    font-size: 20px;
+    padding: 10px;
+    font-family: sofia;
+    color: white;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+a:hover{
+    color: yellow;
+    text-shadow: 2px 2px 5px black;
+}
+.name{
+    font-family: Trirong;
+    font-weight: 80px;
+    font-size: 50px;
+    text-align: center;
+    margin: 50px 0 0 0;
+    padding: 50px 50px 0 50px;
+}
+.slogan{
+    font-family: Trirong;
+    margin-top: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+.para{
+    display: flex;
+    font-size: 30px;
+}
+.p1{
+    font-family: trirong;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: yellow;
+    margin-left: 14em;
+
+}
+.p1:hover{
+    color: yellow;
+    background-color: black;
+    transition: 1s;
+}
+.p2{
+    font-family: trirong;
+    color: yellow;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: black;
+    margin-left: 3em;
+}
+.p2:hover{
+    color: black;
+    background-color: yellow;
+    transition: 1s;
+}
